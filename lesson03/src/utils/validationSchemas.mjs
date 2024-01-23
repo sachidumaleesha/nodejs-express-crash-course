@@ -1,4 +1,4 @@
-export const userValidationSchemas = {
+export const createUserValidationSchemas = {
     username: {
         isLength: {
             options: {
@@ -16,7 +16,7 @@ export const userValidationSchemas = {
     },
     displayName: {
         notEmpty: {
-            errorMessage: "display cannot be empty"
+            errorMessage: "displayname cannot be empty"
         }
     }
 }
